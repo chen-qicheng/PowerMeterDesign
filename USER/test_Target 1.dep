@@ -1,0 +1,110 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_hd.s)(0x532BB242)(--cpu Cortex-M3 -g --apcs=interwork -I "D:\Program Files\ARM\RV31\INC"-I "D:\Program Files\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I Device\Include--list ..\obj\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (.\test.c)(0x6706308A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\USMART -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\LCD -I..\HARDWARE\W25QX -I..\HARDWARE\TEST-I "D:\Program Files\ARM\RV31\INC"-I "D:\Program Files\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I Device\Include-DSTM32F10X_MD-o ..\obj\test.o --omf_browse ..\obj\test.crf --depend ..\obj\test.d)
+I (..\SYSTEM\sys\sys.h)(0x64315454)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\usart\usart.h)(0x64315454)
+I (D:\Program Files\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\SYSTEM\delay\delay.h)(0x64315454)
+I (..\HARDWARE\LCD\lcd.h)(0x64C37902)
+I (..\HARDWARE\TOUCH\touch.h)(0x642554A0)
+I (..\HARDWARE\TOUCH\CTP.h)(0x642588F6)
+I (..\HARDWARE\W25QX\w25qx.h)(0x649BC4C2)
+I (..\HARDWARE\TEST\test code.h)(0x642557B2)
+F (..\SYSTEM\delay\delay.c)(0x64315454)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\USMART -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\LCD -I..\HARDWARE\W25QX -I..\HARDWARE\TEST-I "D:\Program Files\ARM\RV31\INC"-I "D:\Program Files\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I Device\Include-DSTM32F10X_MD-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x64315454)
+I (..\SYSTEM\sys\sys.h)(0x64315454)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\sys\sys.c)(0x64315454)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\USMART -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\LCD -I..\HARDWARE\W25QX -I..\HARDWARE\TEST-I "D:\Program Files\ARM\RV31\INC"-I "D:\Program Files\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I Device\Include-DSTM32F10X_MD-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x64315454)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\usart\usart.c)(0x64315454)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\USMART -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\LCD -I..\HARDWARE\W25QX -I..\HARDWARE\TEST-I "D:\Program Files\ARM\RV31\INC"-I "D:\Program Files\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I Device\Include-DSTM32F10X_MD-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\usart\usart.h)(0x64315454)
+I (..\SYSTEM\sys\sys.h)(0x64315454)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (D:\Program Files\ARM\ARMCC\include\stdio.h)(0x53463A44)
+F (..\HARDWARE\LCD\LCD.c)(0x66A38970)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\USMART -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\LCD -I..\HARDWARE\W25QX -I..\HARDWARE\TEST-I "D:\Program Files\ARM\RV31\INC"-I "D:\Program Files\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I Device\Include-DSTM32F10X_MD-o ..\obj\lcd.o --omf_browse ..\obj\lcd.crf --depend ..\obj\lcd.d)
+I (..\HARDWARE\LCD\lcd.h)(0x64C37902)
+I (..\SYSTEM\sys\sys.h)(0x64315454)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (D:\Program Files\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (..\HARDWARE\LCD\font.h)(0x67063088)
+I (..\SYSTEM\usart\usart.h)(0x64315454)
+I (D:\Program Files\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\SYSTEM\delay\delay.h)(0x64315454)
+I (D:\Program Files\ARM\ARMCC\include\string.h)(0x53463A44)
+F (..\HARDWARE\TOUCH\ctp.c)(0x642E920E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\USMART -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\LCD -I..\HARDWARE\W25QX -I..\HARDWARE\TEST-I "D:\Program Files\ARM\RV31\INC"-I "D:\Program Files\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I Device\Include-DSTM32F10X_MD-o ..\obj\ctp.o --omf_browse ..\obj\ctp.crf --depend ..\obj\ctp.d)
+I (..\HARDWARE\TOUCH\ctp.h)(0x642588F6)
+I (..\SYSTEM\sys\sys.h)(0x64315454)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\TOUCH\touch.h)(0x642554A0)
+I (..\HARDWARE\TOUCH\ctiic.h)(0x64315454)
+I (..\SYSTEM\usart\usart.h)(0x64315454)
+I (D:\Program Files\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\SYSTEM\delay\delay.h)(0x64315454)
+I (D:\Program Files\ARM\ARMCC\include\string.h)(0x53463A44)
+F (..\HARDWARE\TOUCH\ctiic.c)(0x6425885A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\USMART -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\LCD -I..\HARDWARE\W25QX -I..\HARDWARE\TEST-I "D:\Program Files\ARM\RV31\INC"-I "D:\Program Files\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I Device\Include-DSTM32F10X_MD-o ..\obj\ctiic.o --omf_browse ..\obj\ctiic.crf --depend ..\obj\ctiic.d)
+I (..\HARDWARE\TOUCH\ctiic.h)(0x64315454)
+I (..\SYSTEM\sys\sys.h)(0x64315454)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x64315454)
+F (..\HARDWARE\W25QX\w25qx.c)(0x6496DAE6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\USMART -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\LCD -I..\HARDWARE\W25QX -I..\HARDWARE\TEST-I "D:\Program Files\ARM\RV31\INC"-I "D:\Program Files\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I Device\Include-DSTM32F10X_MD-o ..\obj\w25qx.o --omf_browse ..\obj\w25qx.crf --depend ..\obj\w25qx.d)
+I (..\HARDWARE\W25QX\w25qx.h)(0x649BC4C2)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\sys.h)(0x64315454)
+I (..\HARDWARE\LCD\lcd.h)(0x64C37902)
+I (..\HARDWARE\TOUCH\touch.h)(0x642554A0)
+I (..\HARDWARE\TOUCH\CTP.h)(0x642588F6)
+F (..\HARDWARE\TOUCH\touch.c)(0x643164AE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\USMART -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\LCD -I..\HARDWARE\W25QX -I..\HARDWARE\TEST-I "D:\Program Files\ARM\RV31\INC"-I "D:\Program Files\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I Device\Include-DSTM32F10X_MD-o ..\obj\touch.o --omf_browse ..\obj\touch.crf --depend ..\obj\touch.d)
+I (..\HARDWARE\TOUCH\touch.h)(0x642554A0)
+I (..\SYSTEM\sys\sys.h)(0x64315454)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\TOUCH\CTP.h)(0x642588F6)
+I (..\HARDWARE\LCD\lcd.h)(0x64C37902)
+I (..\SYSTEM\delay\delay.h)(0x64315454)
+I (D:\Program Files\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (D:\Program Files\ARM\ARMCC\include\math.h)(0x53463A44)
+I (..\HARDWARE\W25QX\w25qx.h)(0x649BC4C2)
+F (..\HARDWARE\TEST\test code.c)(0x67063052)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\USMART -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\LCD -I..\HARDWARE\W25QX -I..\HARDWARE\TEST-I "D:\Program Files\ARM\RV31\INC"-I "D:\Program Files\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I Device\Include-DSTM32F10X_MD-o "..\obj\test code.o" --omf_browse "..\obj\test code.crf" --depend "..\obj\test code.d")
+I (..\SYSTEM\sys\sys.h)(0x64315454)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Program Files\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\usart\usart.h)(0x64315454)
+I (D:\Program Files\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\SYSTEM\delay\delay.h)(0x64315454)
+I (..\HARDWARE\LCD\lcd.h)(0x64C37902)
+I (..\HARDWARE\TOUCH\touch.h)(0x642554A0)
+I (..\HARDWARE\TOUCH\CTP.h)(0x642588F6)
+I (..\HARDWARE\LCD\pic.h)(0x642540A0)
+I (..\HARDWARE\W25QX\w25qx.h)(0x649BC4C2)
+I (..\HARDWARE\TEST\test code.h)(0x642557B2)
+F (..\README.TXT)(0x6706306A)()
